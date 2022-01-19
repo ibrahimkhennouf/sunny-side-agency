@@ -4,6 +4,10 @@ body {
   font-size: 18px;
 }
 
+#id {
+  position: fixed;
+}
+
 .body--bckcont__header__navbar {
   display: flex;
   justify-content: space-between;
@@ -138,10 +142,6 @@ footer {
   background-color: hsl(168, 34%, 41%);
   padding: 3rem;
   text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .footer__imglnks {
   margin-bottom: 3rem;
