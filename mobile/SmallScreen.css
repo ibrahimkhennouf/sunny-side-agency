@@ -1,18 +1,18 @@
 body {
   font-family: "Barlow", sans-serif;
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #id {
   position: fixed;
 }
 
-.burg {
+.body--bckcont__header__header--navbar__links {
   display: none;
 }
 
-#hide1 {
+#hide {
   display: none;
 }
 
@@ -40,8 +40,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  height: 100vh;
-  padding: 2rem;
+  height: 80vh;
+  padding: 1rem;
 }
 
 .body--bckcont__main__fstsec {
@@ -50,7 +50,7 @@ body {
 }
 
 .body--bckcont__main--fstsec__hed {
-  margin-bottom: 12rem;
+  margin-bottom: 7rem;
   color: white;
   letter-spacing: 5px;
   font-weight: 600;
@@ -58,7 +58,7 @@ body {
 
 .main__scndsec {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 100%;
 }
 
@@ -67,7 +67,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
-  margin-left: 8rem;
+  margin-left: 4rem;
   width: 60%;
 }
 .main--scndsec--txt__hed {
@@ -94,11 +94,11 @@ body {
 .main--scndsec--image__par {
   position: absolute;
   text-align: center;
-  bottom: 3%;
+  bottom: -3%;
 }
 
 .main__thrdsec {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .main--thrdsec__hed {
@@ -131,15 +131,13 @@ body {
 }
 
 .main--thrdsec__tstm {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .main__frthsec {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .main__frthsec img {
   width: 100%;
@@ -161,7 +159,11 @@ footer {
   color: hsl(168, 53%, 77%);
   text-decoration: none;
   padding: 1rem;
+  display: flex;
 }
 .footer__logos svg {
   padding: 1rem;
+}
+.footer--imglnks__lnks {
+  display: flex;
 }
