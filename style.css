@@ -3,9 +3,10 @@ body {
   margin: 0;
   font-size: 18px;
 }
-
-#id {
-  position: fixed;
+#arr {
+  position: absolute;
+  bottom: 30%;
+  left: 48%;
 }
 
 .burg {
@@ -42,6 +43,7 @@ body {
   background-attachment: scroll;
   height: 100vh;
   padding: 2rem;
+  position: relative;
 }
 
 .body--bckcont__main__fstsec {
@@ -50,7 +52,6 @@ body {
 }
 
 .body--bckcont__main--fstsec__hed {
-  margin-bottom: 12rem;
   color: white;
   letter-spacing: 5px;
   font-weight: 600;
